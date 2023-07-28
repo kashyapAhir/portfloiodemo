@@ -1,0 +1,301 @@
+
+.Contact{
+    padding: 2rem 2rem;
+}
+
+@media screen and (max-width: 550px) {
+    .Contact{
+        padding: 2rem 0rem;
+    }
+  }
+
+/* -----------------.Contact-container----------------- */
+
+
+.Contact-container{
+    background: #f5f5f5;
+    padding: 3.5rem 5.4rem;
+}
+
+@media screen and (max-width: 900px) {
+    .Contact-container{
+        padding: 1rem;
+    }
+  }
+
+.Contact-container form{
+    max-width: 100%;
+}
+/* -----------------contact-heading ----------------- */
+
+.contact-heading{
+    margin-bottom: 2rem;
+}
+
+.contact-heading h1{
+    text-align: center;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 100.8%;
+    text-transform: capitalize;
+    color: #323232;
+    font-family: Futura PT;
+    margin-bottom: .8rem;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-heading h1{
+        font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .contact-heading h1{
+        font-size: 1.5rem;
+    }
+  }
+
+.contact-heading p{
+    text-align: center;
+    color: #687693;
+    font-family: Futura PT;
+    font-size: .8rem;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-heading p{
+        font-size: .6rem;
+    }
+  }
+/* -----------------flex-name-email----------------- */
+
+
+.flex-name-email{
+    display: flex;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .flex-name-email{
+        display: block;
+    }
+  }
+
+/* -----------------name-contact----------------- */
+
+.name-contact{
+    flex-grow: 1;
+    padding: .5rem;
+
+}
+
+.name-contact label{
+    font-size: .7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: .2rem;
+    color: #687693;
+    font-family: Futura PT;
+}
+
+.name-contact input{
+    background: transparent;
+    border: 1px solid hsla(225,8%,62%,.48);
+    border-radius: 0;
+    box-shadow: none!important;
+    height: 2.5rem;
+    font-size: .7rem;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.name-contact input:focus{
+    border: 1px solid red;
+    background-color: white;
+    outline-offset: 0px;
+    outline: none;
+}
+
+
+/* -----------------email-contact----------------- */
+
+.email-contact{
+    flex-grow: 1;
+    padding: .5rem;
+}
+
+
+.email-contact label{
+    font-size: .7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: .2rem;
+    color: #687693;
+    font-family: Futura PT;
+
+}
+
+.email-contact input{
+    background: transparent;
+    border: 1px solid hsla(225,8%,62%,.48);
+    border-radius: 0;
+    box-shadow: none!important;
+    height: 2.5rem;
+    font-size: .7rem;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.email-contact input:focus{
+    border: 1px solid red;
+    background-color: white;
+    outline-offset: 0px;
+    outline: none;
+}
+
+/* -----------------conatct-message----------------- */
+
+.conatct-message{
+    margin-top: 1rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.conatct-message label{
+    font-size: .7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: .2rem;
+    color: #687693;
+    font-family: Futura PT;
+
+}
+
+.conatct-message textarea{
+    max-width: 100%
+}
+
+.conatct-message textarea{
+    background: transparent;
+    border: 1px solid hsla(225,8%,62%,.48);
+    border-radius: 0;
+    box-shadow: none!important;
+    height: 3.5rem;
+    font-size: .7rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.conatct-message textarea:focus{
+    border: 1px solid red;
+    background-color: white;
+    outline-offset: 0px;
+    outline: none;
+}
+
+/* -----------------contact-submit----------------- */
+
+.contact-submit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: .5rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-submit{
+        display: block;
+    }
+  }
+
+.contact-submit button{
+    background-color: #19181d ;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    font-size: .6rem;
+    font-weight: 600;
+    padding: .6rem 2rem;
+    position: relative;
+    text-transform: capitalize;
+    transition: all .3s;
+    z-index: 0;
+    
+}
+
+@media only screen and (max-width: 930px) and (min-width: 900px)  {
+    .contact-submit button{
+        padding: .3rem 1rem;
+        
+    }
+}
+
+.contact-submit button:hover{
+    background-color: #e5540a;
+    border: none;
+}
+
+
+
+/* -----------------contact-detail----------------- */
+
+.contact-detail{
+    display: flex;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-detail{
+        margin-top: -4rem;
+        margin-bottom: 1rem;
+    }
+  }
+
+.contact-submit span{
+    display: inherit;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.contact-submit span p{
+    font-size: .6rem;
+    font-weight: 500;
+    line-height: 160%;
+    color: #687693;
+    margin-left: .4rem;
+}
+
+@media screen and (max-width: 430px) {
+    .contact-submit span p{
+        font-size: .5rem;
+        margin-left: 0.2rem;
+        margin-right: .5rem;
+    }
+  }
+
+
+  /* --------------error-text---------------- */
+  .error-text{
+    color: red;
+    font-family: Futura PT;
+    font-size: .6rem;
+    margin-top: .3rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .error-text{
+        color: red;
+        font-family: Futura PT;
+        font-size: .5rem;
+        margin-top: .2rem;
+      }
+  }

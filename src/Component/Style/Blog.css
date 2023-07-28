@@ -1,0 +1,243 @@
+
+
+.Blog{
+    padding: 2rem 2rem;
+}
+
+@media screen and (max-width: 380px) {
+    .Blog{
+        padding: 0;
+    }
+  }
+
+/* ------------------Project-heading------------------ */
+
+.Blog-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.Blog-logo span{
+border: 2px solid #e5540a;
+border-right: none;
+width: 1rem;
+height: 1.5rem;
+}
+
+.Blog-logo h4{
+color: #e5540a;
+font-family: Futura PT;
+font-size: .8rem;
+overflow: hidden;
+letter-spacing: .01em;
+margin-top: .5rem;
+}
+
+.Blog-heading h2{
+text-align: center;
+font-size: 2.7rem;
+font-style: normal;
+color: #323232;
+font-family: Futura PT;
+font-weight: 600;
+letter-spacing: .01em;
+line-height: 100.8%;
+margin-bottom: 1rem;
+text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+.Blog-heading h2 {
+  font-size: 1.5rem;
+}
+}
+
+@media screen and (max-width: 420px) {
+.Blog-heading h2 {
+  font-size: 1rem;
+}
+}
+
+@media screen and (max-width: 300px) {
+.Blog-heading h2 {
+  font-size: .6rem;
+}
+}
+
+/* -----------------Blog-container----------------- */
+
+.Blog-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* -----------------Blog-card----------------- */
+
+.Blog-card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.149);
+    width: calc(33.33% - 48px - 1px);
+    overflow: hidden;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+    .Blog-card{
+        width: 50%;
+        width: calc(50% - 48px - 1px);
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .Blog-card{
+        width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 2160px) {
+    .Blog-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+  }
+
+/* -----------------Blog-image----------------- */
+.Blog-image{
+    overflow: hidden;
+    position: relative;
+}
+
+.Blog-image div{
+    position: absolute;
+    background-color: #e5540a;
+    color: white;
+    font-size: .6rem;
+    padding: 0.3rem 1rem;
+    text-transform: uppercase;
+    z-index: 1;
+    left: 15px;
+    top: 15px;
+}
+
+@media screen and (max-width: 1350px) {
+    .Blog-image div{
+        font-size: .5rem;
+        padding: .2rem .8rem;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .Blog-image div{
+        font-size: .4rem;
+        padding: .2rem .6rem;
+    }
+  }
+
+.Blog-image img{
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s all ease-in-out;
+    transform: scale(1);
+}
+
+.Blog img:hover{
+    transform: scale(1.3);
+    filter: grayscale(100%);
+}
+
+
+/* -----------------Blog-body----------------- */
+
+
+.Blog-body{
+    max-width: 100%;
+}
+
+.Blog-body span{
+    color: #e5540a;
+    font-size: .7rem;
+    font-family: Futura PT;
+}
+
+@media screen and (max-width: 600px) {
+    .Blog-body span{
+        font-size: .6rem;
+    }
+  }
+
+.Blog-body span a{
+   text-decoration: none;
+   color: #e5540a;
+   cursor: pointer;
+   font-size: .7rem;
+   font-family: Futura PT;
+}
+
+.Blog-body h1{
+    cursor: pointer;
+    color: #323232;
+    font-family: Futura PT;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .Blog-body h1{
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 460px) {
+    .Blog-body h1{
+        font-size: .7rem;
+    }
+  }
+
+.Blog-body p{
+    color: #676767;
+    font-size: .9rem;
+    font-family: Futura PT;
+}
+
+@media screen and (max-width: 600px) {
+    .Blog-body p{
+        font-size: .7rem;
+    }
+  }
+
+.Blog-button-div{
+    display: block;
+    margin: auto;
+}
+
+
+.Blog-button-div button{
+    background-color: #19181d ;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    font-size: .6rem;
+    font-weight: 600;
+    padding: .6rem 2rem;
+    position: relative;
+    text-transform: capitalize;
+    transition: all .3s;
+    z-index: 0;
+}
+
+.Blog-button-div button:hover{
+    background-color: #e5540a;
+    border: none;
+}
+
+

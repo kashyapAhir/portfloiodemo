@@ -1,0 +1,128 @@
+
+html{
+    font-size: 1.5rem;
+}
+
+.Home{
+    padding: 0rem 2rem;
+    margin-top: 5rem;
+}
+
+/* ---------------Container - 2------------------- */
+
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #a9a3a385;
+    margin-top: -1rem;
+}
+
+.heading-container{
+    /* margin: 2rem 2rem; */
+    display: block;
+    margin: auto;
+}
+
+.heading-container h1{
+    color: #323232;
+    font-weight: 900;
+    margin: 0rem 2rem;
+    font-size: 3.5vw;
+}
+
+.heading-container h2{
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    margin: 1rem 2rem;
+    color: #687693;
+    font-family: Josefin Sans,sans-serif
+}
+
+.heading-container button{
+    background-color: #19181d;
+    color: white;
+    cursor: pointer;
+    padding: 15px 45px;
+    transition: all .3s;
+    z-index: 1;
+    margin: 1rem 2rem;
+    font-size: .7rem;
+    border: none;
+}
+
+.heading-container button:hover{
+    background-color: #e5540a;
+    border: none;
+}
+
+@media screen and (max-width: 990px) {
+    .container-2{
+        display: block;
+    }
+
+    .heading-container{
+        margin: auto;
+        display: block;
+    }
+
+    .heading-container h1{
+        margin: 1rem 0rem;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+    }
+
+    .heading-container h2{
+        font-size: .7rem;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .heading-container button{
+        display: block;
+        margin: auto;
+    }
+
+    .image-container{
+        margin-top: 1rem;
+     } 
+}
+
+  @media screen and (max-width: 380px) {
+
+    .heading-container{
+        margin-top: 1rem;
+    }
+
+    .heading-container h2{
+        font-size: .5rem;
+        letter-spacing: 2px;
+        margin: .5rem;
+    }
+
+    .heading-container h1{
+        margin: 0rem 2rem;
+        font-size: 0.7rem;
+    }
+
+    .heading-container button{
+        margin-top: -1rem;
+        padding: 7px 20px;
+        font-size: .5rem;
+    }
+    
+  }
+
+ .image-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+ } 
+
+.image-container img{
+    max-width: 100%;
+    height: auto;
+}
+

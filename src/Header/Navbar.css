@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vh 8vh;
+    line-height: 3.5rem;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 0px 2px black;
+    z-index: 2;
+
+}
+
+.Logo-section{
+    flex-grow: 1;
+    padding: 0vh .5rem;
+}
+
+.main-logo{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.List-section{
+    flex-grow: 2;
+    padding: 0vh .5rem;
+}
+
+@media screen and (max-width: 990px) {
+    .List-section {
+      display: none;
+    }
+  }
+
+.List-section ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.List-section ul a{
+    text-decoration: none;
+    color: black;
+    margin: .5rem;
+    /* font-size: .7rem; */
+}
+
+.List-section ul a li{
+    list-style: none;
+    color: #323232;
+    font-weight: 500;
+    font-family: Futura PT;
+    cursor: pointer;
+    font-size: 0.8rem;
+    line-height: .2em;
+    padding: 1.3rem 0.3rem;
+}
+
+.List-section ul a li:hover{
+    color: #e5540a;
+    /* border-bottom: 4px solid #e5540a; */
+}
+
+.burger-menu{
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (min-width: 990px) {
+    .burger-menu a{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 990px) {
+    .Navbar{
+      box-shadow: 0px 0px 2px black;
+      padding: 0vh 4vh;
+      line-height: 2.5rem;
+    }
+
+    .Logo-section{
+      display: flex;
+    }
+
+    .burger-menu{
+      display: flex;
+    }
+
+    .main-logo{
+      margin-left: -1rem;
+    }
+    
+    .mobile-list{
+      background-color: rgb(45, 43, 43);
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      height: 100%;
+      width: 10rem;
+      text-align: center;
+      list-style: none;
+      text-decoration: none;
+      color: white;
+    }
+
+    .Line-hr{
+      display: none;
+    }
+
+    ul{
+      position: absolute;
+      top: 10%;
+      right: 30%;
+      list-style-type: none;
+    }
+
+    li{
+      color: white;
+      font-family: Futura PT;
+      padding: 1rem 0rem;
+      margin-top: -2rem;
+      cursor: pointer;
+    }
+
+    li:hover{
+      color: #e5540a;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+  }
+
+  @media screen and (max-width: 350px) {
+
+    .mobile-list{
+      width: 6rem;
+      font-size: small;
+      text-align: center;
+    }
+
+    li{
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+
+  .mobile-cancle{
+    display: none;
+  }
+
+.Search-section{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0rem .5rem;
+}
+
+@media screen and (max-width: 990px) {
+    .Search-section{
+      display: none;
+    }
+  }
+
+.Line-hr{
+  margin-top: -.69rem;
+}
+
+.Serch-model{
+  background-color: rgb(25, 24, 29);
+  position: fixed;
+  right: 20px;
+  top: 120px;
+  padding: .5rem .8rem;
+  height: 5rem;
+    width: 17rem;
+    border-radius: 0.5rem;
+    box-shadow: rgb(9, 9, 9) -2px 18px 40px -9px;
+}
+
+.Serch-model span{
+  /* border: 1px solid yellow; */
+  position: relative;
+}
+
+.Serch-model span input{
+  background-color: rgb(25, 24, 29);
+  border: 1px solid rgba(255, 255, 255, 0.249);
+  font-size: small;
+  color: white;
+  font-size: .7rem;
+  padding: .5rem .8rem;
+}
+
+.Serch-model input:focus{
+  border: 1px solid #e5540a;
+  outline: none;
+}
+
+.model-search-icon{
+  color : white;
+  position : absolute;
+  top: 30%;
+  bottom: 50%;
+  left: 89%
+}

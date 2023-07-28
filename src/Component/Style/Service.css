@@ -1,0 +1,482 @@
+
+.Service{
+    padding: 0rem 2rem;
+}
+
+@media screen and (max-width: 500px) {
+
+    .Service{
+        padding: 0.3rem;
+    }        
+  }
+
+/* -----------------Service-container------------------ */
+
+.Service-container{
+    border: 1px solid #a9a3a385;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+
+    .Service-container{
+        padding: 0;
+    }        
+  }
+
+@media screen and (max-width: 570px) {
+
+    .Service-container{
+        padding: 0;
+    }        
+  }
+
+/* -----------------Service-heading------------------ */
+
+.Service-heading h2{
+    text-align: center;
+    font-size: 2.7rem;
+    font-style: normal;
+    color: #323232;
+    font-family: Futura PT;
+    font-weight: 600;
+    letter-spacing: .01em;
+    line-height: 100.8%;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+
+    .Service-heading h2{
+        font-size: 1.5rem;
+    }        
+  }
+
+
+/* ------------------Service-logo------------------ */
+
+.Service-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.Service-logo span{
+    border: 2px solid #e5540a;
+    border-right: none;
+    width: 1rem;
+    height: 1.5rem;
+}
+
+.Service-logo h4{
+    color: #e5540a;
+    font-family: Futura PT;
+    font-size: .8rem;
+    overflow: hidden;
+    letter-spacing: .01em;
+    margin-top: .3rem;
+}
+
+/* ------------------Service-card------------------ */
+
+.Service-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 770px) {
+
+    .Service-card{
+        flex-direction: column;
+    }        
+  }
+
+
+
+/* ----------.Website-card ------------ */
+
+.Website-card{
+    font-family: Josefin Sans,sans-serif;
+    background-color: #7a849829;
+    padding: 2rem 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.144);
+    transition: all .3s;
+}
+
+.Website-card:hover{
+    background-color: #181818;
+    transition: all .3s;
+}
+
+.Website-card:hover > span{
+    color: white
+}
+
+.Website-card:hover > h2{
+    color: white
+}
+
+.Website-card:hover > p{
+    color: white
+}
+
+.Website-card:hover > button{
+    color: white
+}
+
+@media screen and (max-width: 1300px) {
+
+    .Website-card{
+        padding: 1.5rem 1rem;
+    }        
+  }
+
+.Website-card span{
+    color: #e5540a;
+}
+
+.Website-card h2{
+    color: black;
+    font-family: Futura PT;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    transition: all .3s;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .Website-card h2{
+        font-size: .8rem;
+    }       
+  }
+
+  @media screen and (max-width: 990px) {
+
+    .Website-card h2{
+        font-size: .6rem;
+    }  
+  } 
+
+.Website-card p{
+    color: #687693;
+    font-family: Futura PT;
+    font-size: .7rem;
+    font-weight: 300;
+    line-height: 160%;
+    margin-bottom: 0;
+    transition: all .3s;
+}
+
+.Website-card button{
+    background: rgba(90,90,90,.45);
+    color: white;
+    border: 0;
+    display: inline-block;
+    height: 1.87rem;
+    line-height: 0;
+    margin-top: .83rem;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 1.9rem;
+}
+
+.Website-card button:hover{ 
+    background-color: #e5540a;
+}
+
+/* ----------.Mobile-card ------------ */
+
+.Mobile-card{
+    font-family: Josefin Sans,sans-serif;
+    background-color: #7a849829;
+    padding: 2rem 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+.Mobile-card:hover{
+    background-color: #181818;
+}
+
+.Mobile-card:hover > span{
+    color: white
+}
+
+.Mobile-card:hover > h2{
+    color: white
+}
+
+.Mobile-card:hover > p{
+    color: white
+}
+
+.Mobile-card:hover > button{
+    color: white
+}
+
+@media screen and (max-width: 1300px) {
+
+    .Mobile-card{
+        padding: 1.5rem 1rem;
+    }  
+    
+    .Mobile-card h2{
+        font-size: 1rem;
+    }    
+  }
+
+.Mobile-card span{
+    color: #e5540a;
+}
+
+.Mobile-card h2{
+    color: black;
+    font-family: Futura PT;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    transition: all .3s;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .Mobile-card h2{
+        font-size: .8rem;
+    }     
+  }
+
+  @media screen and (max-width: 990px) {
+
+    .Mobile-card h2{
+        font-size: .6rem;
+    }  
+  }
+
+.Mobile-card p{
+    color: #687693;
+    font-family: Futura PT;
+    font-size: .7rem;
+    font-weight: 300;
+    line-height: 160%;
+    margin-bottom: 0;
+    transition: all .3s;
+}
+
+.Mobile-card button{
+    background: rgba(90,90,90,.45);
+    color: white;
+    border: 0;
+    display: inline-block;
+    height: 1.87rem;
+    line-height: 0;
+    margin-top: .83rem;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 1.9rem;
+}
+
+.Mobile-card button:hover{ 
+    background-color: #e5540a;
+}
+
+/* ----------.Brand-card ------------ */
+
+.Brand-card{
+    font-family: Josefin Sans,sans-serif;
+    background-color: #7a849829;
+    padding: 2rem 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+.Brand-card:hover{
+    background-color: #181818;
+}
+
+.Brand-card:hover > span{
+    color: white
+}
+
+.Brand-card:hover > h2{
+    color: white
+}
+
+.Brand-card:hover > p{
+    color: white
+}
+
+.Brand-card:hover > button{
+    color: white
+}
+
+@media screen and (max-width: 1300px) {
+
+    .Brand-card{
+        padding: 1.5rem 1rem;
+    }    
+  }
+
+  @media screen and (max-width: 990px) {
+
+    .Brand-card h2{
+        font-size: .6rem;
+    }  
+  } 
+
+.Brand-card span{
+    color: #e5540a;
+}
+
+.Brand-card h2{
+    color: black;
+    font-family: Futura PT;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    transition: all .3s;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .Brand-card h2{
+        font-size: .8rem;
+    }
+        
+  }
+
+
+.Brand-card p{
+    color: #687693;
+    font-family: Futura PT;
+    font-size: .7rem;
+    font-weight: 300;
+    line-height: 160%;
+    margin-bottom: 0;
+    transition: all .3s;
+}
+
+.Brand-card button{
+    background: rgba(90,90,90,.45);
+    color: white;
+    border: 0;
+    display: inline-block;
+    height: 1.87rem;
+    line-height: 0;
+    margin-top: .83rem;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 1.9rem;
+}
+
+.Brand-card button:hover{ 
+    background-color: #e5540a;
+}
+
+/* ----------.Market-card ------------ */
+
+.Market-card{
+    font-family: Josefin Sans,sans-serif;
+    background-color: #7a849829;
+    padding: 2rem 1rem;
+}
+
+.Market-card:hover {
+    background-color: #181818;
+}
+
+.Market-card:hover > span{
+    color: white
+}
+
+.Market-card:hover > h2{
+    color: white
+}
+
+.Market-card:hover > p{
+    color: white
+}
+
+.Market-card:hover > button{
+    color: white
+}
+
+@media screen and (max-width: 1300px) {
+    
+    .Market-card{
+        padding: 1.5rem 1rem;
+    }    
+  }
+
+.Market-card span{
+    color: #e5540a;
+    max-height: 2rem;
+}
+
+.Market-card h2{
+    color: black;
+    font-family: Futura PT;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    transition: all .3s;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .Market-card h2{
+        font-size: .8rem;
+    }
+  }
+
+@media screen and (max-width: 990px) {
+
+    .Market-card h2{
+        font-size: .6rem;
+    }  
+  }    
+
+.Market-card p{
+    color: #687693;
+    font-family: Futura PT;
+    font-size: .7rem;
+    font-weight: 300;
+    line-height: 160%;
+    margin-bottom: 0;
+    transition: all .3s;
+}
+
+.Market-card button{
+    background: rgba(90,90,90,.45);
+    color: white;
+    border: 0;
+    display: inline-block;
+    height: 1.87rem;
+    line-height: 0;
+    margin-top: .83rem;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 1.9rem;
+}
+
+.Market-card button:hover{ 
+    background-color: #e5540a;
+}

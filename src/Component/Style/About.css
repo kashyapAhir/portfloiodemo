@@ -1,0 +1,306 @@
+
+.About{
+    padding: 2rem 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .About{
+        padding: 1.5rem 0rem;
+    }  
+}
+
+
+/* -----------------section-About----------------- */
+
+.section-About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a9a3a385;
+}
+
+@media screen and (max-width: 990px) {
+    .section-About{
+        display: block;
+    }
+}
+
+/* ------------------image-About----------------------- */
+
+.image-About{
+    flex-grow: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.image-About img{
+    max-width: 100%;
+    height: auto;
+}
+
+.exp-model{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 8.4rem;
+    height: 9.8rem;
+    border-radius: 8px;
+    background: rgba(0,0,0,.65);
+    backdrop-filter: blur(15px);
+    margin-left: auto;
+    margin-right: -50px;
+    margin-top: -200px;
+}
+
+@media screen and (max-width: 575px) {
+    .exp-model{
+        height: 6.5rem;
+        margin-right: -30px;
+        margin-top: -135px;
+        width: 5rem;
+    }  
+}
+
+@media screen and (min-width: 720px) {
+    .exp-model{
+       margin-right: -1rem;
+    }  
+}
+
+@media screen and (min-width: 780px) {
+    .exp-model{
+       margin-right: 2rem;
+    }  
+}
+
+@media screen and (min-width: 880px) {
+    .exp-model{
+       margin-right: 5.5rem;
+    }  
+}
+
+@media screen and (min-width: 920px) {
+    .exp-model{
+       margin-right: 7rem;
+    }  
+}
+
+@media screen and (min-width: 990px) {
+    .exp-model{
+        height: 6.5rem;
+        margin-right: -30px;
+        margin-top: -135px;
+        width: 5rem;
+    }  
+}
+
+@media screen and (min-width: 1250px) {
+    .exp-model{
+        margin-right: -30px;
+        margin-top: -135px;
+        width: 8.4rem;
+        height: 8.8rem;
+    }  
+}
+
+@media screen and (min-width: 1650px) {
+    .exp-model{
+        display: none;
+    }  
+}
+
+
+
+.child-exp-model{
+    color: white;
+    font-size: 4.2rem;
+    display: block;
+}
+
+.child-exp-model h3{
+    font-family: Futura PT;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 575px) {
+    .child-exp-model h3{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .child-exp-model h3{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .child-exp-model h3{
+        font-size: 2rem;
+    }
+}
+
+.child-exp-model span{
+    color: #fff;
+    font-family: Futura PT; 
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 112.5%;
+    margin: 0 auto;
+    max-width: 5.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 575px) {
+    .child-exp-model span{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .child-exp-model span{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .child-exp-model span{
+        font-size: 0.5rem;
+    }
+}
+
+
+/* ------------heading-About ------------------ */
+
+.heading-About{
+    flex-grow: 1;
+    padding: 1rem 3rem;
+}
+
+@media screen and (max-width: 990px) {
+    .heading-About{
+        padding: 1rem .5rem;
+        display: block;
+        /* margin: auto; */
+    }  
+}
+
+/* @media screen and (max-width: 600px) {
+    .heading-About{
+        padding: 1rem .5rem;
+    }  
+} */
+
+.heading-About h1{
+    color: #323232;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 100.8%;
+    margin-bottom: 1rem;
+}
+
+.heading-About h5{
+    color: #a9a9a9;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 104.8%;
+    margin-bottom: 1rem;
+    max-width: 22rem;
+}
+
+@media screen and (max-width: 990px) {
+    .heading-About h5{
+        max-width: 30rem;
+    }  
+
+    .heading-About p{
+        max-width: 30rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heading-About h5{
+        font-size: .8rem;
+    }  
+}
+
+.heading-About p{
+    font-size: .8rem;
+    font-weight: 300;
+    line-height: 160%;
+    max-width: 22rem;
+    overflow: hidden;
+}
+
+
+/* ------------------heading-About-logo------------------ */
+
+.heading-About-logo{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.heading-About-logo span{
+    border: 2px solid #e5540a;
+    border-right: none;
+    width: 1rem;
+    height: 1.5rem;
+}
+
+.heading-About-logo h4{
+    color: #e5540a;
+    font-family: Futura PT;
+    font-size: .8rem;
+    overflow: hidden;
+    letter-spacing: .01em;
+    margin-top: .5rem;
+}
+
+
+
+/* --------------Heading-Item-------------------- */
+
+.heading-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+    max-width: 20rem;
+}
+
+.heading-item div{
+    margin: .3rem;
+}
+
+.heading-item h3{
+    color: #e5540a;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.heading-item span{
+    color: #e5540a;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: .1rem;
+}
+
+.heading-item p{
+    font-family: Futura PT;
+    font-size: .8rem;
+    color: #687693;
+    font-weight: 300;
+    line-height: 160%;
+    margin-bottom: 0;
+}
